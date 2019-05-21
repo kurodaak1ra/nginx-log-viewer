@@ -1,6 +1,6 @@
 # nginx-log-viewer
 
-### 请将日志改为一下格式
+### 请将日志改为以下格式
 ```
 log_format main '$remote_addr #$remote_user #$time_local #$request '
                 '#$status #$body_bytes_sent #$http_referer '
